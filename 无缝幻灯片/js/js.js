@@ -8,6 +8,15 @@ function banner(ele){
 	var $this = $(ele);
 	var liwidth = $this.find('ul li').outerWidth();
 	var lilen = $this.find('ul li').size();//获取添加前的LI数量
+	// 动态生成ol li
+	var  str = '';
+	for(var i=0;i<lilen;i++){
+		str += '<li></li>'
+	}
+	$this.append($('<ol>'+str+'</ol>'));
+	$this.find('ol li:first').addClass('current');
+	$this.append($('<span class="left">&lt;</span><span class="right">&gt;</span>'))
+	
 	$this.find('ul li').eq(0).clone().appendTo($this.find('ul'));
 	//点击角标来切换对应的图片
 	$this.find('ol li').click(function(){
@@ -26,7 +35,7 @@ function banner(ele){
 			num=1;
 			$this.find('ul').css({left:0})
 		}
-		if(num == 5){
+		if(num == lilen){
 			$this.find('ol li').eq(0).addClass('current').siblings().removeClass('current');
 		}
 		$this.find('ol li').eq(num).addClass('current').siblings().removeClass('current');
@@ -38,9 +47,6 @@ function banner(ele){
 			num=lilen-1;
 			$this.find('ul').css({left:-liwidth*(lilen)})
 		}
-		// if(num == 5){
-		// 	$this.find('ol li').eq(0).addClass('current').siblings().removeClass('current');
-		// }
 		$this.find('ol li').eq(num).addClass('current').siblings().removeClass('current');
 		$this.find('ul').stop().animate({left:-liwidth*num},500)
 	}

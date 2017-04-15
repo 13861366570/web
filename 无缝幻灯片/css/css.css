@@ -65,6 +65,7 @@ img{
 	line-height: 250px;
 	text-align: center;
 	display:none;
+	cursor:pointer;
 }
 .banner span.left{
 	left:0;

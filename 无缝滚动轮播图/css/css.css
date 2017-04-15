@@ -6,21 +6,21 @@
 	img{
 		display:block;
 	}
-	.wrap{
-		width:300px;
+	#wrap1,#wrap2{
+		width:800px;
 		height:200px;
 		margin:50px auto;
 		border:5px solid blue;
 		position:relative;
 		z-index: 6;
 	}
-	.wrap .box{
+	#wrap1 .box,#wrap2 .box{
 		width:100%;
 		height:100%;
 		overflow:hidden;
 		position:relative;
 	}
-	.wrap .box ul{
+	#wrap1 .box ul,#wrap2 .box ul{
 		width:1000%;
 		height:100%;
 		position:absolute;
@@ -28,16 +28,16 @@
 		top:0;
 		z-index: 8;
 	}
-	.wrap .box ul li{
+	#wrap1 .box ul li,#wrap2 .box ul li{
 		width:200px;
 		height:100%;
 		float:left;
 	}
-	.wrap .box ul li img{
+	#wrap1 .box ul li img,#wrap2 .box ul li img{
 		width:100%;
 		height:100%;
 	}
-	.wrap span{
+	#wrap1 span,#wrap2 span{
 		width:40px;
 		height:80px;
 		background:rgba(0,0,0,.3);
@@ -51,9 +51,9 @@
 		line-height: 80px;
 		text-align: center;
 	}
-	.wrap span.left{
+	#wrap1 span.left,#wrap2 span.left{
 		left:-40px;
 	}
-	.wrap span.right{
+	#wrap1 span.right,#wrap2 span.right{
 		right:-40px;
 	}

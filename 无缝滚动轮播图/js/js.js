@@ -4,7 +4,7 @@ $.fn.lunbo=function(options){
 var defaults = {
 //各种参数，各种属性
  width:400,//容器宽度
- hieght:200,//窗器高度
+ hieght:200//窗器高度
 };
 var options = $.extend(defaults,options);
 this.each(function(){
@@ -63,6 +63,10 @@ return this;
 })(jQuery);
 
 
+
+
 $(function(){
-	$('.wrap').lunbo()
+	$('#wrap1').lunbo();
+	$('#wrap2').trigger('lunbo');
+
 })

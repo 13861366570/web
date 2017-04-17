@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>仿三星全屏轮播图</title>
+	<style>
+	*{
+		margin:0;
+		padding: 0;
+		list-style:none;
+	}
+	.box{
+		width: 100%;
+		height: 600px;
+		margin:50px auto;
+		background: pink;
+		position: relative;
+	}
+	.box ul{
+		width: 500%;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	.box ul li{
+		
+		height: 600px;
+		background:url(images/1.jpg) no-repeat;
+		background-position: 50% 60%;
+		background-size: cover;
+		float: left;
+	}
+	.box ul .hero2{
+		background-image: url(images/2.jpg);
+	}
+	.box ul .hero3{
+		background-image: url(images/3.jpg);
+	}
+	.box ul .hero4{
+		background-image: url(images/4.jpg);
+	}
+	.box ol{
+		width: 100%;
+		text-align: center;
+		position: absolute;
+		left: 0;
+		bottom: 20px;
+		font-size: 0;
+	}
+	.box ol li{
+		width: 15px;
+		height: 15px;
+		background: #fff;
+		display: inline-block;
+		margin-left:10px;
+		border-radius: 50%;
+		cursor: pointer;
+	}
+	.box ol .current{
+		background: green;
+	}
+	.box span{
+		width: 37px;
+		height: 66px;
+		background: url(images/hero-arrow.png) no-repeat left top;
+		position: absolute;
+		top:50%;
+		left: 20px;
+		margin-top:-33px;
+		z-index: 10;
+		cursor: pointer;
+	}
+	.box .right{
+		left: auto;
+		right: 20px;
+		background-position: left bottom;
+	}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<ul>
+			<li></li>
+			<li class="hero2"></li>
+			<li class="hero3"></li>
+			<li class="hero4"></li>
+		</ul>
+		<ol>
+			<li class="current"></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ol>
+		<span class="left"></span>
+		<span class="right"></span>
+	</div>
+</body>
+</html>

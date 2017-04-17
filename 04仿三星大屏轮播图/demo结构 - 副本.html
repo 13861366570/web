@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>仿三星全屏轮播图</title>
+	<style>
+		*{margin:0;padding:0;}
+		li{list-style:none;}
+		.box{width:100%;height:450px;margin:0 auto;background:pink;position:relative;overflow:hidden;}
+		.box ul{width:500%;height:450px;position:absolute;left:0;top:0;z-index:3;}
+		.box ul li{width:20%;height:450px;float:left;background-size:cover;background-position:50% 60%;background-image:url(images/1.jpg);}
+		.box ul li:nth-child(2){background-image:url(images/2.jpg);}
+		.box ul li:nth-child(3){background-image:url(images/3.jpg);}
+		.box ul li:nth-child(4){background-image:url(images/4.jpg);}
+		.box ol{position:absolute;width:100%;height:15px;left:0;bottom:10px;text-align: center;font-size:0;z-index:5;}
+		.box ol li{width:15px;height:15px;background:yellow;border-radius:50%;display:inline-block;_display:inline;margin:0 5px;cursor:pointer;}
+		.box ol li.current{background:red;}
+		.box span{width:36px;height:70px;font-size:50px;font-weight:700;position:absolute;top:50%;margin-top:-35px;z-index:10;color:#fff;cursor: pointer;}
+		.box span.left{left:10px;}
+		.box span.right{right:10px;}
+
+	</style>
+	<script src="jquery.min.js"></script>
+	<script>
+	$(function(){
+		var w = $(window).width();
+		//把UL中的第一个LI克隆放到LI最后面
+		var li = $('.box ul li:first').clone();
+		$('.box ul').append(li);
+		//点击角标切换图片
+		$('.box ol li').click(function(){
+			$(this).addClass('current').siblings().removeClass('current');
+			var index = $(this).index();
+			$('.box ul').stop().animate({left:-index*w},500)
+			num = index;
+		})
+		//自动轮播
+		var num = 0;//累加计
+		var timer = null;//定时器
+		function autoplay(){
+			num++;
+			if(num > 4){
+				$('.box ul').css({left:0})
+				num =1;
+			}
+			$('.box ol li').eq(num).addClass('current').siblings().removeClass('current');
+			$('.box ul').stop().animate({left:-num*w},500)
+
+			if(num == 4){
+				$('.box ol li').eq(0).addClass('current').siblings().removeClass('current');
+			}
+		}
+		function prevplay(){
+			num--;
+			if(num<0){
+				$('.box ul').css({left:-4*w})
+				num=3;
+			}
+			
+			$('.box ol li').eq(num).addClass('current').siblings().removeClass('current');
+			$('.box ul').stop().animate({left:-num*w},500)
+
+			
+		}
+		timer = setInterval(autoplay,2000)
+		//鼠标移动到主盒子上，定时器清除，移开定时器重新启用
+		$('.box').mouseover(function(){
+			clearInterval(timer);
+		}).mouseout(function(){
+			clearInterval(timer);
+			timer = setInterval(autoplay,2000)
+		})
+		//点击向左向右进行切换
+		$('.box span.left').click(function(){
+			prevplay();
+		})
+		$('.box span.right').click(function(){
+			autoplay()
+		})
+	})
+	</script>
+</head>
+<body>
+	<div class="box">
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		<ol>
+			<li class="current"></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ol>
+		<span class="left">&lt;</span>
+		<span class="right">&gt;</span>
+	</div>
+</body>
+</html>

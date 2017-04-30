@@ -1,0 +1,27 @@
+ ;
+(function($){
+
+$.fn.插件名=function(options){
+var defaults = {
+//各种参数，各种属性
+ 
+};
+var options = $.extend(defaults,options);
+this.each(function(){
+//实现功能的代码
+ 
+});
+
+return this;
+};
+
+})(jQuery);
+
+调用方法：
+
+$(function(){
+    $('元素名').插件名（{
+    修改默认的属性
+
+}）
+})

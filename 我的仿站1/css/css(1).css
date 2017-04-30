@@ -1,0 +1,699 @@
+@import "normalize.css";
+* {
+  margin: 0;
+  padding: 0;
+}
+ul li,
+ol,
+li {
+  list-style: none;
+}
+.w1200 {
+  width: 1200px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+img {
+  border: none;
+  display: block;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+header {
+  background: #F5F5F5;
+}
+header .top1 {
+  height: 30px;
+  line-height: 30px;
+  background: url(../images/top1bg.jpg) repeat-x;
+}
+header .top1 .w1200 {
+  overflow: hidden;
+}
+header .top1 .w1200 p {
+  float: left;
+  font-size: 12px;
+}
+header .top1 .w1200 ul {
+  float: right;
+}
+header .top1 .w1200 ul li {
+  float: left;
+  margin-right: 10px;
+}
+header .top1 .w1200 ul li a {
+  font-size: 12px;
+  padding-left: 15px;
+  color: #333;
+  display: block;
+}
+header .top1 .w1200 ul li.one {
+  background: url(../images/ico2.jpg) no-repeat left center;
+}
+header .top1 .w1200 ul li.two {
+  background: url(../images/ico1.jpg) no-repeat left center;
+}
+header .top1 .w1200 ul li.three {
+  background: url(../images/ico3.jpg) no-repeat left center;
+}
+header .top2 {
+  height: 145px;
+}
+header .top2 img {
+  float: left;
+}
+header .top2 h1 {
+  float: left;
+  margin-left: 20px;
+  font-size: 22px;
+  margin-top: 46px;
+}
+header .top2 p {
+  float: right;
+  width: 255px;
+  height: 66px;
+  padding-left: 66px;
+  background: url(../images/tell.jpg) no-repeat left center;
+  line-height: 66px;
+  font-size: 30px;
+  color: #d20002;
+  font-weight: 700;
+  margin-top: 46px;
+}
+header nav {
+  height: 50px;
+  background: url(../images/navbj.jpg) repeat-x;
+  border-bottom: 3px solid #000;
+}
+header nav ul {
+  height: 50px;
+  overflow: hidden;
+}
+header nav ul li {
+  float: left;
+  line-height: 50px;
+  background: url(../images/ico_nav.jpg) no-repeat right center;
+}
+header nav ul li a {
+  padding: 0 20px;
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+}
+header nav ul li a.cur {
+  background: url(../images/navl.jpg) repeat-x;
+}
+header nav ul li a:hover {
+  background: url(../images/navl.jpg) repeat-x;
+}
+header .banner {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+}
+header .banner ul {
+  width: 1000%;
+  height: 500px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
+header .banner ul li {
+  float: left;
+}
+header .banner ul li img {
+  height: 500px;
+}
+header .banner ol {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 15px;
+  text-align: center;
+  font-size: 0;
+}
+header .banner ol li {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: yellow;
+  *display: inline;
+  *zoom: 1;
+  margin: 0 5px;
+}
+header .banner ol li.cur {
+  background: red;
+}
+header .banner span {
+  width: 120px;
+  height: 500px;
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -250px;
+  font-size: 80px;
+  line-height: 500px;
+  text-align: center;
+  color: #fff;
+}
+header .banner span.right {
+  left: auto;
+  right: 0;
+}
+header .seacth {
+  height: 52px;
+  line-height: 52px;
+  background: #E0E0E0;
+}
+header .seacth .w1200 {
+  overflow: hidden;
+}
+header .seacth .w1200 p {
+  float: left;
+  font-weight: 700;
+}
+header .seacth .w1200 p a {
+  font-size: 14px;
+  color: #333;
+  margin-left: 10px;
+  font-weight: 400;
+}
+header .seacth .w1200 form {
+  float: right;
+  height: 32px;
+  width: 346px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+header .seacth .w1200 form input.txt {
+  width: 264px;
+  height: 32px;
+  border: none;
+  float: left;
+  text-indent: 40px;
+  background: url(../images/inp1.jpg) no-repeat left center;
+}
+header .seacth .w1200 form input.but {
+  width: 82px;
+  height: 32px;
+  float: right;
+  background: #D20002;
+  border: none;
+  color: #fff;
+}
+section.product {
+  margin-top: 66px;
+}
+section.product .head {
+  height: 60px;
+  border: 3px solid #D20002;
+  position: relative;
+  margin-bottom: 50px;
+}
+section.product .head h2 {
+  font-size: 36px;
+  width: 464px;
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  margin-left: -232px;
+  top: -25px;
+  text-align: center;
+}
+section.product .head h2 a {
+  color: #D20002;
+}
+section.product .head ul {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: -25px;
+}
+section.product .head ul li {
+  display: inline-block;
+  margin: 0 15px;
+  border: 1px solid #000;
+  *display: inline;
+  *zoom: 1;
+  background: url(../images/navl.jpg) repeat-x left top;
+}
+section.product .head ul li a {
+  font-size: 24px;
+  padding: 8px 10px;
+  color: #fff;
+  border: 1px solid #000;
+}
+section.product .head ul li.cur {
+  border: 1px solid #CF0103;
+}
+section.product .head ul li.cur a {
+  background: #D20002;
+  border: 1px solid #fff;
+}
+section.product .body .con {
+  height: 360px;
+  position: relative;
+  display: none;
+}
+section.product .body .con .one {
+  width: 528px;
+  height: 360px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+section.product .body .con .two {
+  width: 268px;
+  height: 175px;
+  position: absolute;
+  left: 538px;
+  top: 0;
+}
+section.product .body .con .three {
+  width: 268px;
+  height: 175px;
+  position: absolute;
+  left: 538px;
+  top: 185px;
+}
+section.product .body .con dl {
+  width: 320px;
+  height: 320px;
+  padding: 20px;
+  background: #F0F0F0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+section.product .body .con dl dt {
+  height: 30px;
+  line-height: 30px;
+  background: #666;
+  margin-bottom: 20px;
+  text-indent: 20px;
+  color: #fff;
+}
+section.product .body .con dl dd {
+  line-height: 25px;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+section.product .body .con dl dd ul {
+  overflow: hidden;
+}
+section.product .body .con dl dd ul li {
+  width: 50%;
+  float: left;
+  line-height: 25px;
+}
+section.product .body .con dl dd ul li a {
+  color: #333;
+}
+section.product .body .con dl .qqkf a {
+  display: block;
+  width: 220px;
+  height: 36px;
+  background: url(../images/btu2.jpg) no-repeat;
+  margin: 0 auto;
+}
+section.product .body .con.cur {
+  display: block;
+}
+section.anli {
+  background: url(../images/bj01.jpg) no-repeat center top;
+  margin-top: 48px;
+}
+section.anli h2 {
+  font-size: 32px;
+  text-align: center;
+  padding-top: 42px;
+  padding-bottom: 50px;
+}
+section.anli h2 a {
+  color: #D20002;
+}
+section.anli ul {
+  width: 1210px;
+  overflow: hidden;
+}
+section.anli ul li {
+  width: 590px;
+  height: 360px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+section.anli ul li img {
+  width: 590px;
+  height: 360px;
+}
+section.anli ul li div {
+  width: 276px;
+  height: 276px;
+  background: url(../images/img16.png) no-repeat;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -138px;
+}
+section.anli ul li div h3 {
+  width: 276px;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 102px;
+  padding-bottom: 15px;
+}
+section.anli ul li div h3 a {
+  color: #333;
+}
+section.anli ul li div p {
+  width: 276px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 24px;
+}
+section.anli ul li .fr {
+  left: auto;
+  right: 0;
+}
+section.anli .adv {
+  margin-top: 50px;
+  height: 202px;
+  background: url(../images/bj02.jpg) no-repeat center top;
+  position: relative;
+  margin-bottom: 80px;
+}
+section.anli .adv p {
+  width: 250px;
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  margin-left: 260px;
+  top: 50px;
+  background: url(../images/tell2.png) no-repeat left center;
+  text-indent: 50px;
+}
+section.anli .adv p span {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+section.anli .adv p em {
+  display: block;
+  font-size: 24px;
+  font-weight: 700;
+}
+section.anli .adv b {
+  display: block;
+  height: 8px;
+  width: 100%;
+  background: url(../images/bj02_yy.jpg) no-repeat center top;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+}
+section.youshi {
+  overflow: hidden;
+}
+section.youshi h2 {
+  height: 40px;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+section.youshi h2 a {
+  color: #D20002;
+}
+section.youshi ul {
+  overflow: hidden;
+  width: 1280px;
+}
+section.youshi ul li {
+  width: 240px;
+  height: 312px;
+  float: left;
+  margin-right: 80px;
+  position: relative;
+}
+section.youshi ul li a {
+  width: 156px;
+  height: 140px;
+  background: url(../images/x1.png) no-repeat center center;
+  position: absolute;
+  left: 50%;
+  margin-left: -78px;
+  top: 0px;
+  font-size: 0;
+  z-index: 5;
+}
+section.youshi ul li a.x2 {
+  background: url(../images/x2.png);
+}
+section.youshi ul li a.x3 {
+  background: url(../images/x3.png);
+}
+section.youshi ul li a.x4 {
+  background: url(../images/x4.png);
+}
+section.youshi ul li div {
+  width: 100%;
+  height: 242px;
+  background: #DEDEDE;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  z-index: 3;
+}
+section.youshi ul li div h3 {
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 90px;
+}
+section.youshi ul li div p {
+  width: 100%;
+  font-size: 14px;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 120px;
+  line-height: 30px;
+}
+section.shili {
+  margin-top: 98px;
+}
+section.shili .head {
+  height: 60px;
+  border: 3px solid #D20002;
+  position: relative;
+  margin-bottom: 50px;
+}
+section.shili .head h2 {
+  font-size: 36px;
+  width: 464px;
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  margin-left: -232px;
+  top: -25px;
+  text-align: center;
+}
+section.shili .head h2 a {
+  color: #D20002;
+}
+section.shili .head ul {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: -25px;
+}
+section.shili .head ul li {
+  display: inline-block;
+  margin: 0 15px;
+  border: 1px solid #000;
+  *display: inline;
+  *zoom: 1;
+}
+section.shili .head ul li a {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  font-size: 24px;
+  color: #fff;
+  background: url(../images/navl.jpg) repeat-x left top;
+  padding: 0 20px;
+  border: 1px solid #000;
+}
+section.shili .head ul li.cur {
+  border: 1px solid #CF0103;
+}
+section.shili .head ul li.cur a {
+  background: #D20002;
+  border: 1px solid #fff;
+}
+section.shili .body {
+  height: 200px;
+  overflow: hidden;
+  margin-bottom: 88px;
+}
+section.shili .body .con {
+  display: none;
+}
+section.shili .body .con ul {
+  width: 1000%;
+  height: 200px;
+}
+section.shili .body .con ul li {
+  width: 280px;
+  height: 200px;
+  float: left;
+  margin-right: 20px;
+}
+section.shili .body .con ul li a {
+  color: #333;
+}
+section.shili .body .con ul li a img {
+  width: 280px;
+  height: 180px;
+}
+section.shili .body .con ul li a p {
+  width: 100%;
+  line-height: 20px;
+  text-align: center;
+}
+section.shili .body .con.cur {
+  display: block;
+}
+section.newlist {
+  overflow: hidden;
+}
+section.newlist h2 {
+  width: 550px;
+  height: 45px;
+  line-height: 45px;
+  border: 1px solid #B7B7B7;
+  font-size: 24px;
+  color: #D20002;
+  text-indent: 15px;
+  position: relative;
+  margin-bottom: 20px;
+}
+section.newlist h2 span {
+  width: 160px;
+  height: 3px;
+  border-top: 3px solid #D20002;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+section.newlist h2 a {
+  float: right;
+  margin-right: 10px;
+  font-size: 12px;
+  color: #333;
+  font-weight: 400;
+}
+section.newlist .tt {
+  width: 550px;
+  height: 460px;
+  background: #DFDFDF;
+}
+section.newlist .tt img {
+  width: 510px;
+  height: 215px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+section.newlist .tt h3 {
+  padding: 0 20px;
+  padding-bottom: 25px;
+}
+section.newlist .tt h3 a {
+  color: #D20002;
+}
+section.newlist .tt p {
+  padding: 0 20px;
+  line-height: 28px;
+  text-indent: 2em;
+  font-size: 14px;
+}
+section.newlist ul {
+  margin-bottom: 20px;
+}
+section.newlist ul li {
+  line-height: 40px;
+  border-bottom: #d0d0d0 1px dashed;
+}
+section.newlist ul li a {
+  color: #333;
+}
+section.newlist ul li span {
+  float: right;
+}
+section.about {
+  margin-top: 50px;
+  height: 335px;
+  background: url(../images/bj04.jpg) no-repeat center top;
+}
+section.about .w1200 {
+  position: relative;
+  height: 335px;
+}
+section.about .w1200 img {
+  width: 590px;
+  height: 340px;
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+}
+section.about .w1200 span {
+  font-family: "Impact";
+  font-size: 80px;
+  color: #ffffff;
+  line-height: 65px;
+  position: absolute;
+  left: 620px;
+  top: 10px;
+}
+section.about .w1200 h3 {
+  width: 580px;
+  font-size: 26px;
+  position: absolute;
+  left: 620px;
+  top: 100px;
+}
+section.about .w1200 p {
+  width: 580px;
+  line-height: 32px;
+  position: absolute;
+  left: 620px;
+  top: 150px;
+  font-size: 14px;
+}
+section.about .w1200 a {
+  font-size: 14px;
+  color: #D20002;
+  position: absolute;
+  left: 620px;
+  bottom: 30px;
+}
+/*# sourceMappingURL=css.css.map */

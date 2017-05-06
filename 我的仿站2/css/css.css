@@ -827,7 +827,7 @@ div.main aside p span {
   line-height: 30px;
 }
 div.main aside ul.list {
-  border: 1px solid #000;
+  border: 1px solid #D2D2D2;
   padding-bottom: 20px;
 }
 div.main aside ul.list li {
@@ -874,4 +874,320 @@ div.main aside .lx ul li {
 div.main section {
   width: 910px;
   float: right;
+  margin-bottom: 20px;
+}
+div.main section .mbx {
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #ddd;
+}
+div.main section .mbx a {
+  font-size: 14px;
+}
+div.main section .mbx p {
+  float: left;
+  font-size: 14px;
+  text-indent: 10px;
+}
+div.main section .mbx p em {
+  display: block;
+  float: left;
+  width: 20px;
+  height: 20px;
+  background: url(../images/img/bg.png) no-repeat -148px bottom;
+  padding-top: 20px;
+}
+div.main section .mbx h1 {
+  float: left;
+  font-size: 14px;
+  font-weight: 400;
+}
+div.main section .mbx span {
+  float: right;
+  font-size: 14px;
+}
+div.main section .list {
+  overflow: hidden;
+  margin-top: 20px;
+}
+div.main section .list ul {
+  width: 1210px;
+}
+div.main section .list ul li {
+  width: 272px;
+  height: 309px;
+  float: left;
+  margin-right: 42px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+div.main section .list ul li a.pic {
+  display: block;
+  width: 240px;
+  height: 240px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+div.main section .list ul li a.pic img {
+  width: 240px;
+  height: 240px;
+}
+div.main section .list ul li p {
+  text-align: center;
+  margin-top: 15px;
+}
+div.main section .list ul li p a {
+  font-size: 14px;
+}
+div.main section .list ul li.cur {
+  border-color: #F60;
+}
+div.main section .newlist ul li {
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #ddd;
+}
+div.main section .newlist ul li a {
+  font-size: 14px;
+  margin-right: 10px;
+  color: #666;
+}
+div.main section .newlist ul li a.fl {
+  color: #35A9DF;
+}
+div.main section .newlist ul li a.new:hover {
+  color: #F90;
+}
+div.main section .newlist ul li span {
+  font-size: 14px;
+  float: right;
+  color: #666;
+}
+div.main section .show {
+  margin-top: 20px;
+}
+div.main section .show h1 {
+  font-size: 18px;
+  text-align: center;
+}
+div.main section .show p.tag {
+  height: 60px;
+  line-height: 60px;
+  border: 1px solid #ddd;
+  margin-top: 30px;
+  color: #888;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+div.main section .show p.tag a {
+  color: #888;
+  margin-left: 20px;
+}
+div.main section .show p.tag a:hover {
+  color: #FF8820;
+}
+div.main section .show p.tag span {
+  float: right;
+}
+div.main section .show p.tag time {
+  float: right;
+  margin-right: 20px;
+}
+div.main section .show .nr {
+  margin-top: 20px;
+}
+div.main section .show .nr a {
+  font-size: 14px;
+  color: #666;
+}
+div.main section .show .nr img {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 0 auto;
+  width: 500px;
+  height: auto;
+}
+div.main section .show .nr div.bt {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  line-height: 40px;
+  width: 522px;
+  margin: 0 auto;
+  background: #ddd;
+  margin-bottom: 20px;
+}
+div.main section .show .nr a:hover {
+  color: #FF8820;
+}
+div.main section .show .nr p {
+  font-size: 14px;
+  text-indent: 2em;
+  line-height: 30px;
+  color: #666;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+div.main section .show .nr ul {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+div.main section .show .nr ul li {
+  line-height: 30px;
+  font-size: 14px;
+  color: #666;
+}
+div.main section .show .tj ul li {
+  line-height: 30px;
+  color: #666;
+  font-size: 14px;
+}
+div.main section .show .tj ul li a {
+  font-size: 14px;
+  color: #666;
+}
+div.main section .show .tj ul li a:hover {
+  color: #FF8820;
+}
+div.main section .about {
+  overflow: hidden;
+}
+div.main section .about ul {
+  float: left;
+  width: 350px;
+  overflow: hidden;
+}
+div.main section .about ul li {
+  line-height: 75px ;
+  border-bottom: 1px solid #ddd;
+}
+div.main section .about ul li em {
+  display: block;
+  float: left;
+  width: 45px;
+  height: 45px;
+  background: url(../images/img/bg.png) no-repeat;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+div.main section .about ul li.bt {
+  font-size: 28px;
+  color: #35AAE0;
+  border-bottom: none;
+}
+div.main section .about ul li.a1 em {
+  background-position: -112px 0;
+}
+div.main section .about ul li.a2 em {
+  background-position: -112px -45px;
+}
+div.main section .about ul li.a3 em {
+  background-position: -112px -90px;
+}
+div.main section .about ul li.a4 em {
+  background-position: -112px -135px;
+}
+div.main section .about ul li.a5 em {
+  background-position: -112px -180px;
+}
+div.main section .about .ditu {
+  border: 1px solid #ddd;
+  width: 550px;
+  height: 450px;
+  float: right;
+}
+div.main section div.proshow p {
+  font-size: 24px;
+  text-indent: 15px;
+  border-left: 10px solid #028BCF;
+  margin-top: 20px;
+}
+div.main section div.proshow div.pro {
+  height: 280px;
+  overflow: hidden;
+  margin-top: 20px;
+  position: relative;
+}
+div.main section div.proshow div.pro ul {
+  width: 1000%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+div.main section div.proshow div.pro ul li {
+  float: left;
+  margin: 0 30px;
+}
+div.main section div.proshow div.pro ul li a.pic {
+  display: block;
+}
+div.main section div.proshow div.pro ul li a.pic img {
+  height: 240px;
+  width: 240px;
+}
+div.main section div.proshow div.pro ul li a.bt {
+  display: block;
+  line-height: 40px;
+  text-align: center;
+}
+div.main section .liuyan {
+  margin-top: 20px;
+}
+div.main section .liuyan p {
+  font-size: 22px;
+  color: #35AAE0;
+}
+div.main section .liuyan p.txt {
+  font-size: 14px;
+  color: #666;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+div.main section .liuyan form.ly ul li {
+  line-height: 40px;
+}
+div.main section .liuyan form.ly ul li span {
+  font-size: 14px;
+  color: #666;
+}
+div.main section .liuyan form.ly ul li span em {
+  color: red;
+  font-weight: 900;
+  font-size: 18px;
+}
+div.main section .liuyan form.ly ul li input {
+  width: 99%;
+  height: 40px;
+  border: 1px solid #ddd;
+  text-indent: 20px;
+  font-size: 16px;
+}
+div.main section .liuyan form.ly ul li input.but {
+  background: #FF8820;
+  color: #fff;
+}
+div.main section .liuyan form.ly ul li textarea {
+  width: 860px;
+  text-indent: 20px;
+  font-size: 16px;
+  padding: 20px;
+}
+div.main section .page {
+  margin-top: 20px;
+}
+div.main section .page ul {
+  float: right;
+}
+div.main section .page ul li {
+  float: left;
+  border: 1px solid #ddd;
+  padding: 0 5px;
+  margin-right: 5px;
+  color: #888;
+}
+div.main section .page ul li a {
+  color: #888;
+}
+div.main section .page ul li.thisclass {
+  background: #FF6C16;
 }

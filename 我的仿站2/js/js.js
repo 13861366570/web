@@ -1,11 +1,14 @@
 $(function(){
 	function init(){
 		cur($('nav ul li'));
-		cur($('.main aside ul li'))
+		cur($('.main aside ul li'));
+		cur($('.main .list ul li'));
 		banner($('.banner'));
 		search($('.txt'));
-		lunbo($('.hot ul'))
-		product($('.product'))
+		lunbo($('.hot ul'));
+		lunbo($('.proshow .pro ul'));
+		product($('.product'));
+		imgbt($('.main .show .nr'))
 	}
 	init();
 	
@@ -110,8 +113,14 @@ $(function(){
 		})
 	}
 	
-	
+	function imgbt(ele){
+		var img = $(ele).find('img');
+		var bt = $(ele).find('img').attr('alt')
+		img.after($('<div class="bt">'+bt+'</div>'))	
+	}
 	
 	
 	
 })
+
+	

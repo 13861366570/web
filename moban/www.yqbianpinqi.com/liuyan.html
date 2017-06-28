@@ -1,0 +1,248 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
+<title>在线留言-佛山市誉强机电有限公司</title>
+<meta name="keywords" content="产品咨询，我要留言" />
+<meta name="description" content="如果您对我们的产品或者服务有需要了解的，欢迎在线留言，告诉我们，我们会及时联系您。" />
+<link href="Css/reset.css" rel="stylesheet" type="text/css" />
+<link href="Css/webmain.css" rel="stylesheet" type="text/css" />
+<link href="Css/ddsmoothmenu.css" rel="stylesheet" type="text/css" />
+<link href="Css/banner.css" rel="stylesheet" type="text/css" />
+<script>
+var site_url='http://www.yqbianpinqi.com/';
+var tpl_path='/Tpl/Home/default/';
+var public = '/Public';
+var mobile = '1';
+var root_path='';
+</script>
+<script type="text/javascript" src="Scripts/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="Scripts/common.js"></script>
+<script type="text/javascript" src="Scripts/cookie.js"></script>
+<script type="text/javascript" src="Scripts/jquery.kinslideshow-1.2.1.js"></script>
+<script type="text/javascript" src="Scripts/webtry_roll.js"></script>
+<script type="text/javascript" src="Scripts/ddsmoothmenu.js"></script>
+<script type="text/javascript" src="Scripts/jquery.js"></script>
+<script type="text/javascript" src="Scripts/superslide.2.1.js"></script>
+
+<script type="text/javascript">
+ddsmoothmenu.init({
+	mainmenuid: "MainMenu", //menu DIV id
+	orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+	classname: 'ddsmoothmenu', //class added to menu's outer DIV
+	//customtheme: ["#1c5a80", "#18374a"],
+	contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+})
+</script>
+</head>
+<body>
+<div id="wrapper">
+  <div class="top">
+  <div class="clear"></div>
+  </div><!--/top-->
+  
+  <div id="index_nav">
+   <div id="MainMenu" class="ddsmoothmenu">
+     <ul ><li class="firstli"><a  href="http://www.yqbianpinqi.com/" title="网站首页"><span>网站首页</span></a></li><li ><a  href="http://www.yqbianpinqi.com/about/" title="关于我们"><span>关于我们</span></a></li><li ><a  href="http://www.yqbianpinqi.com/pro/" title="产品展示"><span>产品展示</span></a></li><li ><a  href="http://www.yqbianpinqi.com/news/" title="公司新闻"><span>公司新闻</span></a></li><li ><a  href="http://www.yqbianpinqi.com/hyzx/" title="行业资讯"><span>行业资讯</span></a></li><li ><a id="menu_selected" href="http://www.yqbianpinqi.com/message/" title="在线留言"><span>在线留言</span></a></li><li class="lastli"><a  href="http://www.yqbianpinqi.com/contact/" title="联系我们"><span>联系我们</span></a></li></ul>   </div>
+  </div>
+  
+   <!-- banner Start -->
+<div id="banner">
+<div class="fullSlide">
+  <div class="bd">
+    <ul>
+      <li _src="url(/Tpl/Home/default/Public/images/1.jpg)" style="background:#fff center 0 no-repeat;"></li>
+      <li _src="url(/Tpl/Home/default/Public/images/2.jpg)" style="background:#fff center 0 no-repeat;"></li>
+      <li _src="url(/Tpl/Home/default/Public/images/3.jpg)" style="background:#fff center 0 no-repeat;"></li>
+    </ul>
+  </div>
+  <div class="hd">
+    <ul>
+    </ul>
+  </div>
+  <span class="prev"></span><span class="next"></span>
+</div>
+<script type="text/javascript">
+jQuery(".fullSlide").hover(function() {
+    jQuery(this).find(".prev,.next").stop(true, true).fadeTo("show", 0.5)
+},
+function() {
+    jQuery(this).find(".prev,.next").fadeOut()
+});
+jQuery(".fullSlide").slide({
+    titCell: ".hd ul",
+    mainCell: ".bd ul",
+    effect: "fold",
+    autoPlay: true,
+    autoPage: true,
+    delayTime:800,
+    interTime:3500,
+    trigger: "click",
+    startFun: function(i) {
+        var curLi = jQuery(".fullSlide .bd li").eq(i);
+        if ( !! curLi.attr("_src")) {
+            curLi.css("background-image", curLi.attr("_src")).removeAttr("_src")
+        }
+    }
+});
+</script>
+</div>
+<!-- banner ENd -->
+
+</div><!--wrapper-->
+<div id="page_main" class="clearfix">
+    <div class="page-right">
+      <div class="site-nav"><span>当前位置 : </span>
+	  
+		<a href="http://www.yqbianpinqi.com/">主页</a> &gt;&gt;<a href="http://www.yqbianpinqi.com/message/">在线留言</a> 	  
+	  </div>
+      <div class="page-guestbook">
+<script type="text/javascript">
+function check()
+{
+	if(document.guestbook.Guest_Name.value=="")
+	{
+		alert("请填写您的姓名");
+		document.guestbook.Guest_Name.focus();
+		return false
+	}
+	if(document.guestbook.Guest_TEL.value=="")
+	{
+		alert("请填写您的电话");
+		document.guestbook.Guest_TEL.focus();
+		return false
+	}
+	
+	if(document.guestbook.Content.value=="")
+	{
+		alert("请填写反馈内容");
+		document.guestbook.Content.focus();
+		return false
+	}
+	if(document.guestbook.checkcode.value=="")
+	{
+		alert("请填写验证码");
+		document.guestbook.checkcode.focus();
+		return false
+	}
+	if(document.guestbook.checkcode.value.length==0)
+	{
+		alert("验证码不能为空");
+		document.guestbook.checkcode.focus();
+		return false;
+	}
+	
+	 
+	return true;
+}
+</script>
+      <form onsubmit="return check()" action="http://www.yqbianpinqi.com/message/doSaveMessage.html" id="guestbook" name="guestbook" method="post">
+      <input type="hidden" name="productid" value="" />
+      <dl class="clearfix">
+      <dt>您的姓名：</dt>
+      <dd><input type="text" id="Guest_Name" name="Guest_Name"><span>*</span></dd>
+	  <dt>电话：</dt>
+      <dd><input type="text" id="Guest_TEL" name="Guest_TEL"><span>*</span></dd>
+      <dt>邮件地址：</dt>
+      <dd><input type="text" id="Guest_Email" name="Guest_Email"></dd>
+      
+      <dt>QQ：</dt>
+      <dd><input type="text" id="Guest_qq" name="Guest_QQ"></dd>
+      <dt>传真：</dt>
+      <dd><input type="text" id="Guest_FAX" name="Guest_FAX"></dd>
+      <dt>地址：</dt>
+      <dd><input type="text" id="Guest_ADD" name="Guest_ADD"></dd>
+      <dt>邮编：</dt>
+      <dd><input type="text" id="Guest_ZIP" name="Guest_ZIP"></dd>
+      <dt>留言内容：</dt>
+      <dd><textarea id="Content" class="Content" rows="" cols="" name="Content"></textarea></dd>
+      <dt>验证码：</dt>
+      <dd>
+        <input type="text" autocomplete="off" maxlength="4" id="checkcode" name="checkcode">
+        <img  style="vertical-align:middle;" src='Picture/2125c2924dd94c329f55cc54714b07b6.gif' onclick="$(this).attr('src','/Public/verify/'+Math.random())" />
+        <span>*</span>
+      </dd>
+      </dl>
+      <p><input type="submit" class="submit" value="提交" id="submit" name="submit"></p>
+      <input type="hidden" name="__hash__" value="7d728fef4e9c8ecb28d212d9ee27e081_d5d1f5c7d1e88b12636942a16e8e564b" /></form>
+      </div>
+    </div>
+    
+	<div class="page-left">
+      <div class="left-products">
+        
+		<div> <h3 style=" margin-bottom:5px"><img src="Picture/nei_lei.jpg" /></h3></div>
+        <div class="ddsmoothmenu-v" id="LeftMenu">
+                  </div>
+      </div>
+	  
+	  
+      <div class="left-search">
+        <h3 style=" margin-top:6px"><img src="Picture/zhan.jpg" /></h3>
+        <form action="http://www.yqbianpinqi.com/home/search/search.html" method="post" id="sitesearch" name="sitesearch">
+          <p>
+            <select name="searchid" id="searchid">
+              <option value="product">产品展示</option>
+              <option value="article">新闻中心</option>
+              <option value="job">招聘信息</option>
+            </select>
+          </p>
+          <p>
+            <input name="searchtext" type="text" id="searchtext"/>
+          </p>
+          <p>
+            <input name="searchbutton" type="submit" id="searchbutton" value="" />
+          </p>
+        <input type="hidden" name="__hash__" value="7d728fef4e9c8ecb28d212d9ee27e081_d5d1f5c7d1e88b12636942a16e8e564b" /></form>
+      </div>
+	  <!--
+	  <div class="left-contact">
+        <h2><span>会员</span></h2>
+		
+					
+		<form action="http://www.yqbianpinqi.com/public/loginsubmit.html" method="post" style="padding-left:20px;">
+		 用户名 <input type="text" name="username" style="margin-bottom:10px; margin-top:10px;" /><br />
+		 密&nbsp;&nbsp;&nbsp;码 <input type="password" name="password" /><br />
+		 <input type="button" onclick="window.location.href='http://www.yqbianpinqi.com/public/reg.html'"  value="注册" style=" margin-top:10px;" />
+		 <input type="submit"  value="登录" style=" margin-left:100px; margin-top:10px;" />
+		<input type="hidden" name="__hash__" value="7d728fef4e9c8ecb28d212d9ee27e081_d5d1f5c7d1e88b12636942a16e8e564b" /></form>      </div>-->
+       <div class="left-contact">
+	      <h3><img src="Picture/lianxi.jpg" /></h3>
+		  <h3><img src="Picture/contact1.jpg" /></h3>
+		   <p> 佛山市誉强机电有限公司<br />
+联系人：陈经理<br />
+手机：18265882568<br />
+电话：0533--3587687<br />
+传真：0533--3587839<br />
+地址：山东省淄博市张店区杏园东路78号</p>
+      </div>
+    </div>
+	
+  </div>
+<div id="copyright">
+<div class="fenzhan">
+城市分站：<a href="http://www.yqbianpinqi.com">主站</a>&nbsp;&nbsp;&nbsp;<a href="http://www.yqbianpinqi.com/jinan/">济南</a>&nbsp;&nbsp;&nbsp;<a href="http://www.yqbianpinqi.com/binzhou/">滨州</a>&nbsp;&nbsp;&nbsp;<a href="http://www.yqbianpinqi.com/weifang/">潍坊</a>&nbsp;&nbsp;&nbsp;<a href="http://www.yqbianpinqi.com/dongying/">东营</a>&nbsp;&nbsp;&nbsp;<a href="http://www.yqbianpinqi.com/laiwu/">莱芜</a>&nbsp;&nbsp;&nbsp;<a href="http://www.yqbianpinqi.com/taian/">泰安</a>&nbsp;&nbsp;&nbsp;<a href="http://www.yqbianpinqi.com/qingdao/">青岛</a>&nbsp;&nbsp;&nbsp;<a href="http://www.yqbianpinqi.com/shandong/">山东</a>&nbsp;&nbsp;&nbsp;<a href="http://www.yqbianpinqi.com/hebei/">河北</a>&nbsp;&nbsp;&nbsp;<a href="http://www.yqbianpinqi.com/henan/">河南</a>&nbsp;&nbsp;&nbsp;<a href="http://www.yqbianpinqi.com/zaozhuang/">枣庄</a>&nbsp;&nbsp;&nbsp;<a href="http://www.yqbianpinqi.com/linyi/">临沂</a>&nbsp;&nbsp;&nbsp;<a href="http://www.yqbianpinqi.com/dezhou/">德州</a>&nbsp;&nbsp;&nbsp;<a href="http://www.yqbianpinqi.com/liaocheng/">聊城</a>&nbsp;&nbsp;&nbsp;<a href="http://www.yqbianpinqi.com/zibo/">淄博</a>&nbsp;&nbsp;&nbsp;</div>
+<div class="foot">
+<p style="text-align:center;">
+	佛山市誉强机电有限公司
+</p>  <script language="javascript" src="Scripts/click.js" charset="gb2312"></script> <script src="Scripts/z_stat.js" language="JavaScript"></script> | <script language="javascript" type="text/javascript" src="Scripts/19101156.js"></script><noscript><a href="http://www.51.la/?19101156" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="Picture/19101156.asp" style="border:none" /></a></noscript> | <a href="http://www.yqbianpinqi.com/sitemap.html">网站地图</a><br />
+</div>
+ <div style="clear:both"></div>
+</div>
+
+<div align="center"><img src="Picture/banquan1.gif" /></div>
+<script>
+//在线客服代码
+$.ajax({
+   type: "POST",
+   url: "http://www.yqbianpinqi.com/home/public/getOnline.html",
+   dataType:'json',
+   success: function(msg){
+   	
+     $("body").append(msg.html);
+   }
+});
+</script>
+</body>
+</html>

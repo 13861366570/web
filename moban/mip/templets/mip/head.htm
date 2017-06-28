@@ -1,0 +1,23 @@
+<header>
+  <nav class="topnav yxindex">
+    <div class="cname">{dede:global.cfg_webname/}&middot; {dede:type}[field:typename/]{/dede:type}</div>
+  </nav>
+</header>
+<div class="mip-html">
+<section class="index">
+<div id="top_menu" class="top_menu">
+  <div class="top_menu_list"> <a href="{dede:global.cfg_basehost/}" target="_blank">网站首页</a> {dede:channel type='top' row='10' } <a href='[field:typeurl/]'  target="_blank">[field:typename/]</a> {/dede:channel} </div>
+</div>
+{dede:arclist row=1 type='image.'}
+<mip-img 
+
+        class="mip-img" 
+
+        popup 
+
+        alt="baidu mip img" 
+
+        src="[field:litpic/]">
+  <p class="mip-img-subtitle">[field:title/]</p>
+</mip-img>
+{/dede:arclist} 

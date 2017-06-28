@@ -1,0 +1,270 @@
+HTML {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+BODY {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+DIV {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+P {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+UL {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+OL {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+LI {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+DL {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+DT {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+DD {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+H1 {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+H2 {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+H3 {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+H4 {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+H5 {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+H6 {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+FORM {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+INPUT {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+SELECT {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+BUTTON {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+TEXTAREA {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+IFRAME {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+FRAMESET {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+TABLE {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+TH {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+TR {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+TD {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+FIELDSET {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+* HTML BODY {
+	OVERFLOW: visible
+}
+* HTML IFRAME {
+	OVERFLOW: auto
+}
+* HTML FRAME {
+	OVERFLOW: auto
+}
+* HTML FRAMESET {
+	OVERFLOW: hidden
+}
+BODY {
+	COLOR: #000; FONT: 12px/22px "ËÎÌו"
+}
+I {
+	FONT-STYLE: normal
+}
+EM {
+	FONT-STYLE: normal
+}
+CITE {
+	FONT-STYLE: normal
+}
+A {
+	TEXT-DECORATION: none; COLOR: #000
+}
+A:link {
+	TEXT-DECORATION: none; COLOR: #000
+}
+A:visited {
+	
+}
+A:active {
+	TEXT-DECORATION: none; COLOR: #5f5b5a
+}
+A:hover {
+	TEXT-DECORATION: none; COLOR: #5f5b5a
+}
+A:focus {
+	OUTLINE-STYLE: none
+}
+TEXTAREA {
+	WORD-WRAP: break-word; WORD-BREAK: break-all
+}
+INPUT {
+	WORD-WRAP: break-word; WORD-BREAK: break-all
+}
+INPUT {
+	FONT-SIZE: 12px; VERTICAL-ALIGN: middle
+}
+.button {
+	FONT-SIZE: 12px; VERTICAL-ALIGN: middle
+}
+.button {
+	CURSOR: pointer
+}
+UL {
+	LIST-STYLE-TYPE: none
+}
+LI {
+	LIST-STYLE-TYPE: none
+}
+IMG {
+	BORDER-TOP: 0px; BORDER-RIGHT: 0px; VERTICAL-ALIGN: middle; BORDER-BOTTOM: 0px; BORDER-LEFT: 0px
+}
+H1 {
+	FONT-SIZE: 24px
+}
+H2 {
+	FONT-SIZE: 20px
+}
+H3 {
+	FONT-SIZE: 18px
+}
+H4 {
+	FONT-SIZE: 16px
+}
+H5 {
+	FONT-SIZE: 14px
+}
+H6 {
+	FONT-SIZE: 12px
+}
+.pointer {
+	CURSOR: pointer
+}
+.t_l {
+	TEXT-ALIGN: left
+}
+.t_c {
+	TEXT-ALIGN: center
+}
+.t_r {
+	TEXT-ALIGN: right
+}
+.break {
+	WORD-WRAP: break-word; WORD-BREAK: break-all
+}
+.no_break {
+	WORD-WRAP: normal; WORD-BREAK: keep-all
+}
+.text_un {
+	TEXT-DECORATION: underline
+}
+.text_no {
+	TEXT-DECORATION: none
+}
+.o_hidden {
+	OVERFLOW: hidden
+}
+.none {
+	DISPLAY: none
+}
+.block {
+	DISPLAY: block
+}
+.b_no {
+	BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none
+}
+.b_no_l {
+	BORDER-LEFT-STYLE: none
+}
+.b_no_r {
+	BORDER-RIGHT-STYLE: none
+}
+.b_no_t {
+	BORDER-TOP-STYLE: none
+}
+.b_no_b {
+	BORDER-BOTTOM-STYLE: none
+}
+.ml10 {
+	MARGIN-LEFT: 10px
+}
+.mb10 {
+	MARGIN-BOTTOM: 10px
+}
+.mr10 {
+	MARGIN-RIGHT: 10px
+}
+.mt10 {
+	MARGIN-TOP: 10px
+}
+.p_t10 {
+	PADDING-TOP: 10px
+}
+.p_t20 {
+	PADDING-TOP: 20px
+}
+.height_10 {
+	OVERFLOW: hidden; HEIGHT: 10px; CLEAR: both; DISPLAY: block
+}
+.height_20 {
+	OVERFLOW: hidden; HEIGHT: 20px; CLEAR: both; DISPLAY: block
+}
+.clearfix:after {
+	HEIGHT: 0px; CONTENT: "24dq"; CLEAR: both; DISPLAY: block; VISIBILITY: hidden
+}
+.clearfix {
+	DISPLAY: inline-block
+}
+* HTML .clearfix {
+	HEIGHT: 1%
+}
+.clearfix {
+	DISPLAY: block
+}
+.clearboth {
+	FONT-SIZE: 0px; OVERFLOW: hidden; HEIGHT: 0px; CLEAR: both; DISPLAY: block
+}
+.gray_background {
+	BACKGROUND-COLOR: #f8f8f8
+}
+.blue_background {
+	BACKGROUND-COLOR: #ecf1f4
+}
+.green_color {
+	COLOR: #67920d
+}
+.white_color {
+	COLOR: #fff
+}
+.black_color {
+	COLOR: #000
+}
